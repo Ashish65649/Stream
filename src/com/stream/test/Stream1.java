@@ -27,7 +27,7 @@ public class Stream1 {
         Stream<String> stream1 = list1.stream();
         List<String> list2 = Stream.concat(stream, stream1).collect(Collectors.toList());
         System.out.println(list2);
-
+        // This is change made in second branch
 
     }
 }
