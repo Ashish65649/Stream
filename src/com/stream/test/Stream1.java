@@ -31,5 +31,6 @@ public class Stream1 {
         // This is second line before merging
         // This is third line added in second - branch
         // this is first line added by third - branch
+        // this is second line added by third - branch
     }
 }
