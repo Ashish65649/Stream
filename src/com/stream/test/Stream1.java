@@ -28,6 +28,6 @@ public class Stream1 {
         List<String> list2 = Stream.concat(stream, stream1).collect(Collectors.toList());
         System.out.println(list2);
         // This is change made in second branch
-
+        // This is second line before merging
     }
 }
