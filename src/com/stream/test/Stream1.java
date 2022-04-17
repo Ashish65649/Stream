@@ -29,5 +29,6 @@ public class Stream1 {
         System.out.println(list2);
         // This is change made in second branch
         // This is second line before merging
+        // This is third line added in second - branch
     }
 }
