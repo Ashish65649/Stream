@@ -11,6 +11,12 @@ class Demo {
     public String name;
     private final Address address;
 
+    /**
+     *
+     * @param x
+     * @param name
+     * @param address
+     */
     public Demo(int x,String name, Address address) {
         this.x = x;
         this.name = name;
