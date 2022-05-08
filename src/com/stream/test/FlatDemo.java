@@ -9,6 +9,9 @@ import java.util.stream.Stream;
 public class FlatDemo {
 
     public static void main(String[] args) {
+
+        System.out.println("1 line has been added to test branch");
+
         List<Integer> l1 = Arrays.asList(2,3,4);
         List<Integer> l2 = Arrays.asList(5,6,7);
         List<Integer> l3 = Arrays.asList(8,9,10);
@@ -24,12 +27,12 @@ public class FlatDemo {
         List<List<Integer>> list1 = Arrays.asList(a1,a2,a3);
 
         List<List<List<Integer>>> listTemp = Arrays.asList(list,list1);
-//        System.out.println(listTemp);
+        System.out.println(listTemp);
 
         List<List<Integer>> temp = listTemp.stream().flatMap(Collection::stream).collect(Collectors.toList());
-//        System.out.println(temp);
+        System.out.println(temp);
 
         List<Integer> temp1 = listTemp.stream().flatMap(Collection::stream).flatMap(Collection::stream).collect(Collectors.toList());
-//        System.out.println(temp1);
+        System.out.println(temp1);
     }
 }
