@@ -34,5 +34,7 @@ public class FlatDemo {
 
         List<Integer> temp1 = listTemp.stream().flatMap(Collection::stream).flatMap(Collection::stream).collect(Collectors.toList());
         System.out.println(temp1);
+        System.out.println(temp1);
+        System.out.println(temp1);
     }
 }
